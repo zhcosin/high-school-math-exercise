@@ -43,6 +43,41 @@
 
   \;
 
+  <\problem>
+    <\enumerate-numeric>
+      <item>\<#8BC1\>\<#660E\>: \<#5BF9\>\<#4EFB\>\<#610F\>\<#5B9E\>\<#6570\>
+      <math|x>\<#FF0C\>\<#6210\>\<#7ACB\>\<#4E0D\>\<#7B49\>\<#5F0F\>
+      <math|<with|math-font-family|rm|e><rsup|x>\<geqslant\>1+x>\<#FF0C\>\<#4E14\>\<#7B49\>\<#53F7\>\<#4EC5\>\<#5728\>
+      <math|x=0> \<#65F6\>\<#6210\>\<#7ACB\>.
+
+      <item>\<#8BC1\>\<#660E\>: \<#5BF9\>\<#4EFB\>\<#610F\>
+      <math|x\<gtr\>-1>\<#FF0C\>\<#6210\>\<#7ACB\>\<#4E0D\>\<#7B49\>\<#5F0F\>
+      <math|ln<around*|(|1+x|)>\<less\>x>\<#FF0C\>\<#4E14\>\<#7B49\>\<#53F7\>\<#4EC5\>\<#5728\>
+      <math|x=0> \<#65F6\>\<#6210\>\<#7ACB\>.\<#5E76\>\<#7531\>\<#6B64\>\<#63A8\>\<#51FA\>\<#4E0D\>\<#7B49\>\<#5F0F\>
+      <math|ln<around*|(|1+<frac|1|n>|)>\<less\><frac|1|n>>\<#FF0C\>\<#8FD9\>\<#91CC\>
+      <math|n> \<#662F\>\<#4EFB\>\<#610F\>\<#6B63\>\<#6574\>\<#6570\>.
+
+      <item>\<#8BC1\>\<#660E\>: \<#5BF9\> <math|x\<gtr\>1>
+      \<#6210\>\<#7ACB\>\<#4E0D\>\<#7B49\>\<#5F0F\> <math|ln
+      x\<less\><frac|1|2><around*|(|x-<frac|1|x>|)>>\<#FF0C\>\<#5E76\>\<#7531\>\<#6B64\>\<#63A8\>\<#51FA\>\<#4E0D\>\<#7B49\>\<#5F0F\>
+      <math|ln<around*|(|1+<frac|1|n>|)>\<less\><frac|1|2><around*|(|<frac|1|m>+<frac|1|m+1>|)>>.
+    </enumerate-numeric>
+  </problem>
+
+  \;
+
+  <\problem>
+    <\enumerate-numeric>
+      <item>\<#8BBE\>\<#5B9E\>\<#6570\> <math|x\<gtr\>0>\<#FF0C\>\<#8BC1\>\<#660E\>\<#4E0D\>\<#7B49\>\<#5F0F\>
+      <math|<frac|x|1+x>\<less\>ln<around*|(|1+x|)>\<less\>x>.
+
+      <item>\<#8BBE\> <math|b\<gtr\>a\<gtr\>0>\<#FF0C\>\<#8BC1\>\<#660E\>\<#4E0D\>\<#7B49\>\<#5F0F\>
+      <math|a\<less\><frac|a-b|ln a-ln b>\<less\>b>.
+      \<#8BE5\>\<#5F0F\>\<#4E2D\>\<#95F4\>\<#7684\>\<#90E8\>\<#5206\>\<#79F0\>\<#4E3A\>
+      <math|a> \<#4E0E\> <math|b> \<#7684\>\<#5BF9\>\<#6570\>\<#5E73\>\<#5747\>\<#6570\>.
+    </enumerate-numeric>
+  </problem>
+
   \;
 
   <\problem>
@@ -53,7 +88,7 @@
       E<rsub|n><around*|(|x|)>=1+x+<frac|x<rsup|2>|2!>+\<cdots\>+<frac|x<rsup|n>|n!>\<nocomma\>,<space|1spc>L<rsub|n><around*|(|x|)>=x-<frac|x<rsup|2>|2>+<frac|x<rsup|3>|3>+\<cdots\>+<around*|(|-1|)><rsup|n-1><frac|x<rsup|n>|n>
     </equation*>
 
-    <\enumerate-Roman>
+    <\enumerate-numeric>
       <item>\<#8BBE\> <math|x\<neq\>0>\<#FF0C\>\<#8BC1\>\<#660E\>\<#FF1A\>\<#5BF9\>\<#4EFB\>\<#610F\>\<#6B63\>\<#6574\>\<#6570\>
       <math|n>\<#FF0C\>\<#90FD\>\<#6709\>
       <math|<with|math-font-family|rm|e><rsup|x>\<gtr\>E<rsub|n><around*|(|x|)>>.
@@ -77,8 +112,10 @@
       <math|n> \<#4E3A\>\<#5947\>\<#6570\>\<#FF0C\>\<#5219\> <math|sin
       x\<less\>S<rsub|n><around*|(|x|)>> \<#5E76\>\<#4E14\> <math|cos
       x\<gtr\>C<rsub|n><around*|(|x|)>>.
-    </enumerate-Roman>
+    </enumerate-numeric>
   </problem>
+
+  \;
 
   <\solution>
     (1).\<#4EE4\><math|f<rsub|n><around*|(|x|)>=<with|math-font-family|rm|e><rsup|x>-E<rsub|n><around*|(|x|)>>\<#FF0C\>\<#663E\>\<#7136\>
