@@ -60,7 +60,7 @@
       <item>\<#8BC1\>\<#660E\>: \<#5BF9\> <math|x\<gtr\>1>
       \<#6210\>\<#7ACB\>\<#4E0D\>\<#7B49\>\<#5F0F\> <math|ln
       x\<less\><frac|1|2><around*|(|x-<frac|1|x>|)>>\<#FF0C\>\<#5E76\>\<#7531\>\<#6B64\>\<#63A8\>\<#51FA\>\<#4E0D\>\<#7B49\>\<#5F0F\>
-      <math|ln<around*|(|1+<frac|1|n>|)>\<less\><frac|1|2><around*|(|<frac|1|m>+<frac|1|m+1>|)>>.
+      <math|ln<around*|(|1+<frac|1|n>|)>\<less\><frac|1|2><around*|(|<frac|1|n>+<frac|1|n+1>|)>>.
     </enumerate-numeric>
   </problem>
 
@@ -70,6 +70,15 @@
     <\enumerate-numeric>
       <item>\<#8BBE\>\<#5B9E\>\<#6570\> <math|x\<gtr\>0>\<#FF0C\>\<#8BC1\>\<#660E\>\<#4E0D\>\<#7B49\>\<#5F0F\>
       <math|<frac|x|1+x>\<less\>ln<around*|(|1+x|)>\<less\>x>.
+
+      <item>\<#8BC1\>\<#660E\>: \<#5BF9\>\<#4EFB\>\<#610F\>\<#6B63\>\<#6574\>\<#6570\>
+      <math|n> \<#6210\>\<#7ACB\>\<#4E0D\>\<#7B49\>\<#5F0F\>
+      <math|<frac|1|n+1>\<less\>ln<around*|(|1+<frac|1|n>|)>\<less\><frac|1|n>>\<#FF0C\>\<#5E76\>\<#7531\>\<#6B64\>\<#8BC1\>\<#660E\>\ 
+
+      <\equation*>
+        ln<around*|(|n+1|)>\<less\>1+<frac|1|2>+\<cdots\>+<frac|1|n>\<less\>1+ln
+        n
+      </equation*>
 
       <item>\<#8BBE\> <math|b\<gtr\>a\<gtr\>0>\<#FF0C\>\<#8BC1\>\<#660E\>\<#4E0D\>\<#7B49\>\<#5F0F\>
       <math|a\<less\><frac|a-b|ln a-ln b>\<less\>b>.
