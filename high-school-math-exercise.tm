@@ -113,6 +113,10 @@
 
   \;
 
+  <section|\<#590D\>\<#5408\>\<#51FD\>\<#6570\>>
+
+  \;
+
   <\problem>
     \<#53CC\>\<#66F2\>\<#51FD\>\<#6570\>\<#7684\>\<#5B9A\>\<#4E49\>\<#4E3A\>:
 
@@ -126,7 +130,10 @@
 
     (1). \<#8BA8\>\<#8BBA\>\<#5B83\>\<#4EEC\>\<#7684\>\<#5947\>\<#5076\>\<#6027\>.
 
-    (2). \<#9A8C\>\<#8BC1\>\<#548C\>\<#5DEE\>\<#516C\>\<#5F0F\>
+    (2). \<#9A8C\>\<#8BC1\>\<#516C\>\<#5F0F\>:
+    <math|cosh<rsup|2>x-sinh<rsup|2>x=1>.
+
+    (3). \<#9A8C\>\<#8BC1\>\<#548C\>\<#5DEE\>\<#516C\>\<#5F0F\>
 
     <\eqnarray*>
       <tformat|<table|<row|<cell|cosh<around*|(|x\<pm\>y|)>>|<cell|=>|<cell|cosh
@@ -136,19 +143,28 @@
 
     \;
 
-    (3) \<#9A8C\>\<#8BC1\>\<#500D\>\<#534A\>\<#516C\>\<#5F0F\>
+    (4) \<#9A8C\>\<#8BC1\>\<#500D\>\<#534A\>\<#516C\>\<#5F0F\>
 
     <\eqnarray*>
       <tformat|<table|<row|<cell|cosh <around*|(|2x|)>>|<cell|=>|<cell|2cosh
-      <rsup|2>x-1>>|<row|<cell|sinh<around*|(|2x|)>>|<cell|=>|<cell|2sinh x
-      cosh x>>>>
+      <rsup|2>x-1=cosh<rsup|2>x+sinh<rsup|2>x>>|<row|<cell|sinh<around*|(|2x|)>>|<cell|=>|<cell|2sinh
+      x cosh x>>>>
     </eqnarray*>
+
+    \;
+
+    (5) \<#5C06\>\<#4E0A\>\<#8FF0\>\<#516C\>\<#5F0F\>\<#4E0E\>\<#4E09\>\<#89D2\>\<#51FD\>\<#6570\>\<#8FDB\>\<#884C\>\<#5BF9\>\<#6BD4\>.
   </problem>
+
+  <section|\<#53CD\>\<#51FD\>\<#6570\>>
 
   \;
 
+  <section|\<#5355\>\<#8C03\>\<#6027\>>
+
   <\problem>
-    \<#51FD\>\<#6570\> <math|f<around*|(|x|)>> \<#5728\>\<#533A\>\<#95F4\>
+    <label|montonicity-of-combined-func>\<#51FD\>\<#6570\>
+    <math|f<around*|(|x|)>> \<#5728\>\<#533A\>\<#95F4\>
     <math|<around*|[|a,b|]>> \<#4E0A\>\<#5E76\>\<#5177\>\<#5907\>\<#67D0\>\<#79CD\>\<#5355\>\<#8C03\>\<#6027\>\<#FF0C\>\<#76F8\>\<#5E94\>\<#7684\>\<#503C\>\<#57DF\>\<#4E3A\>
     <math|<around*|[|r,s|]>>\<#FF0C\>\<#51FD\>\<#6570\>
     <math|g<around*|(|u|)>> \<#5728\>\<#533A\>\<#95F4\>
@@ -178,7 +194,8 @@
   \;
 
   <\problem>
-    \<#8BBE\>\<#51FD\>\<#6570\> <math|f<around*|(|x|)>=x+<frac|a|x>>.
+    <label|montonicity-of-sum-of-x-and-a-over-x>\<#8BBE\>\<#51FD\>\<#6570\>
+    <math|f<around*|(|x|)>=x+<frac|a|x>>.
 
     (1). \<#8BC1\>\<#660E\>: \<#82E5\> <math|a\<gtr\>0>\<#FF0C\>\<#5219\>\<#51FD\>\<#6570\>\<#5728\>
     <math|<around*|(|0,<sqrt|a>|)>> \<#4E0A\>\<#5355\>\<#8C03\>\<#51CF\>\<#5C11\>\<#FF0C\>\<#5728\>
@@ -191,6 +208,13 @@
   </problem>
 
   \;
+
+  <\problem>
+    \<#8BA8\>\<#8BBA\>\<#53CC\>\<#66F2\>\<#4F59\>\<#5F26\>\<#51FD\>\<#6570\>\<#4E0E\>\<#53CC\>\<#66F2\>\<#6B63\>\<#5F26\>\<#51FD\>\<#6570\>\<#7684\>\<#5355\>\<#8C03\>\<#6027\>.(\<#63D0\>\<#793A\>\<#FF1A\>\<#5229\>\<#7528\>\<#9898\>\<#76EE\>
+    <reference|montonicity-of-combined-func>\<#4E0E\>\<#9898\>\<#76EE\><reference|montonicity-of-sum-of-x-and-a-over-x>\<#7684\>\<#7ED3\>\<#679C\>)
+  </problem>
+
+  <section|\<#5BF9\>\<#79F0\>\<#6027\>>
 
   <\problem>
     \<#8BC1\>\<#660E\>: \<#4EFB\>\<#4F55\>\<#4E00\>\<#4E2A\>\<#5B9A\>\<#4E49\>\<#57DF\>\<#5173\>\<#4E8E\>\<#539F\>\<#70B9\>\<#5BF9\>\<#79F0\>\<#7684\>\<#51FD\>\<#6570\>\<#FF0C\>\<#90FD\>\<#53EF\>\<#4EE5\>\<#88AB\>\<#8868\>\<#793A\>\<#6210\>\<#4E00\>\<#4E2A\>\<#5947\>\<#51FD\>\<#6570\>\<#4E0E\>\<#4E00\>\<#4E2A\>\<#5076\>\<#51FD\>\<#6570\>\<#4E4B\>\<#548C\>\<#7684\>\<#5F62\>\<#5F0F\>.
@@ -224,7 +248,7 @@
     <math|f<around*|(|2a-x|)>+f<around*|(|x|)>=2b>\<#FF0C\>\<#7ED3\>\<#8BBA\>\<#4ECD\>\<#7136\>\<#6210\>\<#7ACB\>.
   </problem>
 
-  \;
+  <section|\<#5468\>\<#671F\>\<#6027\>>
 
   <\problem>
     \<#5468\>\<#671F\>\<#51FD\>\<#6570\>\<#662F\>\<#5426\>\<#4E00\>\<#5B9A\>\<#5B58\>\<#5728\>\<#6700\>\<#5C0F\>\<#6B63\>\<#5468\>\<#671F\>\<#FF0C\>\<#82E5\>\<#4E0D\>\<#4E00\>\<#5B9A\>\<#FF0C\>\<#8BF7\>\<#4E3E\>\<#4F8B\>\<#8BF4\>\<#660E\>.
@@ -255,7 +279,7 @@
 
   \<#7B49\>\<#5DEE\>\<#6570\>\<#5217\>\<#FF0C\>\<#7B49\>\<#6BD4\>\<#6570\>\<#5217\>\<#FF0C\>\<#6570\>\<#5217\>\<#6C42\>\<#548C\>.
 
-  \;
+  <section|\<#7B49\>\<#5DEE\>\<#6570\>\<#5217\>>
 
   <\problem>
     \;
@@ -299,6 +323,8 @@
     \<#7684\>\<#9012\>\<#63A8\>\<#5173\>\<#7CFB\>\<#5F0F\>\<#FF0C\>\<#5E76\>\<#8BC1\>\<#660E\>\<#5B83\>\<#662F\>\<#5173\>\<#4E8E\>
     <math|n> \<#7684\> <math|m+1> \<#6B21\>\<#591A\>\<#9879\>\<#5F0F\>.
   </problem>
+
+  <section|\<#7B49\>\<#6BD4\>\<#6570\>\<#5217\>>
 
   <\problem>
     \;
@@ -823,16 +849,25 @@
 <\references>
   <\collection>
     <associate|auto-1|<tuple|?|3>>
-    <associate|auto-10|<tuple|8|21>>
-    <associate|auto-11|<tuple|9|23>>
+    <associate|auto-10|<tuple|3.1|21>>
+    <associate|auto-11|<tuple|3.2|23>>
+    <associate|auto-12|<tuple|4|?>>
+    <associate|auto-13|<tuple|5|?>>
+    <associate|auto-14|<tuple|5.1|?>>
+    <associate|auto-15|<tuple|6|?>>
+    <associate|auto-16|<tuple|7|?>>
+    <associate|auto-17|<tuple|8|?>>
+    <associate|auto-18|<tuple|9|?>>
     <associate|auto-2|<tuple|1|7>>
     <associate|auto-3|<tuple|2|9>>
-    <associate|auto-4|<tuple|3|11>>
-    <associate|auto-5|<tuple|4|13>>
-    <associate|auto-6|<tuple|5|15>>
-    <associate|auto-7|<tuple|5.1|15>>
-    <associate|auto-8|<tuple|6|17>>
-    <associate|auto-9|<tuple|7|19>>
+    <associate|auto-4|<tuple|2.1|11>>
+    <associate|auto-5|<tuple|2.2|13>>
+    <associate|auto-6|<tuple|2.3|15>>
+    <associate|auto-7|<tuple|2.4|15>>
+    <associate|auto-8|<tuple|2.5|17>>
+    <associate|auto-9|<tuple|3|19>>
+    <associate|montonicity-of-combined-func|<tuple|2.2|?>>
+    <associate|montonicity-of-sum-of-x-and-a-over-x|<tuple|2.5|?>>
   </collection>
 </references>
 
