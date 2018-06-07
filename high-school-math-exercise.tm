@@ -1,4 +1,4 @@
-<TeXmacs|1.99.5>
+<TeXmacs|1.0.7.21>
 
 <style|<tuple|book|chinese>>
 
@@ -792,6 +792,14 @@
       <math|a\<less\><frac|a-b|ln a-ln b>\<less\>b>.
       \<#8BE5\>\<#5F0F\>\<#4E2D\>\<#95F4\>\<#7684\>\<#90E8\>\<#5206\>\<#79F0\>\<#4E3A\>
       <math|a> \<#4E0E\> <math|b> \<#7684\>\<#5BF9\>\<#6570\>\<#5E73\>\<#5747\>\<#6570\>.
+
+      <item>\<#8BC1\>\<#660E\>\<#5BF9\>\<#6570\>\<#5747\>\<#503C\>\<#4E0D\>\<#7B49\>\<#5F0F\>:
+      \<#8BBE\> <math|a\<gtr\>0,b\<gtr\>0>\<#FF0C\>\<#4E14\>
+      <math|a\<neq\>b>\<#FF0C\>\<#6709\>
+
+      <\equation*>
+        <sqrt|a b>\<less\><frac|a-b|ln a-ln b>\<less\><frac|a+b|2>
+      </equation*>
     </enumerate-numeric>
   </problem>
 
